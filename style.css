@@ -1,0 +1,43 @@
+body {
+  background-color: whitesmoke;
+  overflow: hidden;
+  background-color: black;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+}
+.question {
+  display: inline-flex;
+  padding: 3.1rem;
+  background-color: royalblue;
+  font-size: 1.5rem;
+  color: white;
+  box-sizing: border-box;
+  border: none;
+  margin: 25px;
+  justify-content: center;
+  align-items: center;
+  width: 96%;
+  height: 18%;
+}
+#question-1:hover {
+  transition: 0.5s ease all;
+  transform: scale(1.5);
+  background-color: goldenrod;
+}
+#question-2:hover {
+  transition: 0.5s ease all;
+  transform: scale(1.5);
+  background-color: firebrick;
+}
+#question-3:hover {
+  transition: 0.5s ease all;
+  transform: scale(1.5);
+  background-color: olivedrab;
+}
+#question-4:hover {
+  transition: 0.5s ease all;
+  transform: scale(1.5);
+  background-color: salmon;
+}
